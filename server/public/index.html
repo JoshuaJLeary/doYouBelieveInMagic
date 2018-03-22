@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="vendors/angular.min.js"></script>
+    <script src="scripts/client.js"></script>
+    <title>Do you Believe in Magic</title>
+</head>
+<body ng-app="kittyFoo"><!-- ng-app makes AngularJS drive or active -->
+    <div ng-controller="xboxController as vm"><!-- ng-controller is a piece of DOM variables -->
+        <h1>Dark Magic</h1>
+        <input ng-model="input" type="text"/><!-- ng-model links to a variable -->
+        {{vm.ballin}}
+        {{"Hadar gonna Hate"}}
+        {{input}}
+
+    </div>
+</body>
+</html>
